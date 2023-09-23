@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="looks.css">
+</head>
+<body>
+    <header>
+        <h1>Add what you will shop today</h1>
+    </header>
+    <div id="images">
+        <img src="image/ice-cream-1274894_640.jpg" alt="hand holding ice-cream">
+        <img src="image/pexels-lovefood-art-1437598.jpg" alt="">
+        <img src="image/pexels-tim-douglas-6210933.jpg" alt="">
+    </div>
+    <section>
+        <input type="text" placeholder="Your input goes here">
+        <button id="btn" onclick="add(fill.value)">+Add</button>
+    </section>
+            <ul>
+                <li class="items">Milk<button   class="item"  onclick="destroy()">x</button></li>
+                <li class="items">Chicken<button   class="item"  onclick="destroy()">x</button></li>
+                <li class="items">Rice<button  class="item"  onclick="destroy()">x</button></li>
+                <li class="items">Banana<button   class="item"  onclick="destroy()">x</button></li>
+                <li class="items">Posho<button   class="item"  onclick="destroy()">x</button></li>
+                <script src="medi.js"></script>
+            </ul>
+            <footer>
+                <figure>
+                <img src="image/massa.jpg" alt="my name is massa" id="massa">
+                <figcaption>
+                <h3 class="foot">Web Dev &#127482;&#127468;</h3>
+                <p class="foot2">HTML | CSS | Javascript | Git&Github</p>
+                </figcaption>
+                </figure>
+            </footer>
+</body>
+</html>
