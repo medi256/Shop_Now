@@ -1,1 +1,2 @@
 This website is like a web for a restaurant  where by a user can come and add  his or her meal on  the list and at the same time he or she can delete items.
+click here to view the website https://medi256.github.io/Shop_Now/
